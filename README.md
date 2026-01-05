@@ -1,15 +1,16 @@
-# CAPSTONE_Project
-My final CAPSTONE project where I developed a machine learning model that can predict diabetic risk. This project uses a combination of demographic, lifestyle and clinical features to train a supervised classification model.
+# Diabetic Risk Predictor 
+A machine learning model that can predict diabetic risk. This project uses a combination of demographic, lifestyle and clinical features to train a supervised classification model.
 
-Recall has been used as the primary evaluation metric as this is a medical machine learning model and I wanted to reduce the risk of missing false negative cases.
+Recall has been used as the primary evaluation metric as this is a medical machine learning model where the risk of missing false negative cases is critical.
 
 ## Project contents
 * CAPSTONE PROJECT_presentation - Presentation slide decks
 * CAPSTONE_Complete_Notebook - Notebook containing model development code
 * Diabetic_EDA - Notebook containing exploratory data analysis of diabetes dataset
-* diabetes_dataset - original diabetes dataset (before data cleaning)
-* cleaned_diabetes_dataset_2 - data post-cleaning (dataset used in CAPSTONE_Complete_Notebook)
-
+* diabetes_dataset - Original diabetes dataset (before data cleaning)
+* cleaned_diabetes_dataset_2 - Data post-cleaning (dataset used in CAPSTONE_Complete_Notebook)
+* app.py - Steamlit application to use model, aimed at home users and clinicians
+  
 ## Models
 * Minimal model: baseline model with easily accessible features
 * Maximum model: complex model containing advanced medical features
